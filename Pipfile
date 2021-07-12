@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+pytest = "*"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+sqlalchemy = "*"
+python-dotenv = "*"
+boto3 = "*"
+python-multipart = "*"
+aiofile = "*"
+pdfminer = {six = "*"}
+pandas = "*"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3"
